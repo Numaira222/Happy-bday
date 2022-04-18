@@ -24,4 +24,5 @@ canvas{
         width: 200px;
         font-family: 'Lobster', cursive;
         font-size: 25px !important;
+        margin-bottom: 50px;
     }
