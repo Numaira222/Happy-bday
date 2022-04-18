@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to top left, #ff99ff 0%, #9900ff 100%);
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+canvas{
+    animation-name:happy_b-day;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes happy_b-day {
+    from{
+        box-shadow:2px 2px 38px greenyellow ;
+    }
+        to{
+            box-shadow: 2px 2px 38px yellow;
+        }
+    }
+
+    button{
+        height: 50px;
+        width: 200px;
+        font-family: 'Lobster', cursive;
+        font-size: 25px !important;
+    }
